@@ -2,5 +2,5 @@
 
 public class AppConfig
 {
-    public List<DatabaseConfig> Databases { get; set; }
+    public List<string> Databases { get; set; }
 }

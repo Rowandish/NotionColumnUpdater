@@ -20,12 +20,12 @@ public class NotionService : INotionService
 
     public async Task UpdateDatabaseNamesAsync()
     {
-        foreach (var config in _configs.Databases)
+        foreach (var databaseId in _configs.Databases)
             try
             {
-                _logger.LogInformation($"Processing table {config.TableHoursDbId}");
+                _logger.LogInformation("Processing table {databaseId}", databaseId);
 
-                var pages = await _notionClient.QueryDatabaseAsync(config.TableHoursDbId);
+                var pages = await _notionClient.QueryDatabaseAsync(databaseId);
                 var result = new List<PageRelation>();
                 foreach (var page in pages.Results)
                 {
@@ -41,15 +41,14 @@ public class NotionService : INotionService
                 foreach (var (pageId, relationId) in result)
                 {
                     var relatedPageTitle = await _notionClient.GetPageTitleAsync(relationId);
-                    _logger.LogInformation($"Setting page title of page {pageId} -> {relatedPageTitle}...", pageId,
+                    _logger.LogInformation("Setting page title of page {pageId} -> {relatedPageTitle}...", pageId,
                         relatedPageTitle);
                     await _notionClient.UpdatePageTitleAsync(pageId, relatedPageTitle);
                 }
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error processing table {TableHoursDbId}: {Message}", config.TableHoursDbId,
-                    ex.Message);
+                _logger.LogError(ex, "Error processing table {databaseId}: {Message}", databaseId, ex.Message);
             }
     }
 

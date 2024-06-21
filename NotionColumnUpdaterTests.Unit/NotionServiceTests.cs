@@ -22,7 +22,7 @@ public class NotionServiceTests
         var configs = Substitute.For<IOptions<AppConfig>>();
         configs.Value.Returns(new AppConfig
         {
-            Databases = [new DatabaseConfig { TableHoursDbId = tableHoursDbId }]
+            Databases = [tableHoursDbId]
         });
         var logger = Substitute.For<ILogger<NotionService>>();
         return new NotionService(_client, configs, logger);
