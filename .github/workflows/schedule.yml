@@ -1,0 +1,29 @@
+name: Daily Run
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Esegui ogni giorno a mezzanotte UTC
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '8.0.302'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --configuration Release
+
+      - name: Run Console Application
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+        run: dotnet run --project ./NotionColumnUpdater.csproj
