@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\paolo\AppData\Local\JetBrains\Rider2024.1\resharper-host\temp\Rider\vAny\CoverageData\_NotionColumnUpdater.597092830\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=23bddce3_002D3439_002D4d2d_002D93f2_002D9a5c57d5d5af/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UpdateDatabaseNamesAsync_WhenCalledWithNormalPage_ShouldCallUpdatePageTitleAsync" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::B977DEF2-21CA-4265-9703-96761892A16F::net8.0::NotionColumnUpdaterTests.Unit.NotionServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B977DEF2-21CA-4265-9703-96761892A16F::net8.0::NotionColumnUpdaterTests.Unit.NotionClientTests.GetPageTitleAsync_WhenCalled_ParseJsonAndReturnString&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B977DEF2-21CA-4265-9703-96761892A16F::net8.0::NotionColumnUpdaterTests.Unit.NotionClientTests.GetPageTitleAsync_WhenResponseError_ThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B977DEF2-21CA-4265-9703-96761892A16F::net8.0::NotionColumnUpdaterTests.Unit.NotionClientTests.QueryDatabaseAsync_WhenCalled_ParseJsonAndReturnNotionResponse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B977DEF2-21CA-4265-9703-96761892A16F::net8.0::NotionColumnUpdaterTests.Unit.NotionClientTests.UpdatePageTitleAsync_WhenResponseError_ThrowException&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

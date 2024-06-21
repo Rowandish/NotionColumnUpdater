@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotionColumnUpdater", "NotionColumnUpdater.csproj", "{37120BC0-D10B-4E15-84F6-C2C9842DCDE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotionColumnUpdater.Abstractions", "NotionColumnUpdater.Abstractions\NotionColumnUpdater.Abstractions.csproj", "{EC51F838-3A48-45EF-BED5-73D98C15D520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotionColumnUpdaterTests.Unit", "NotionColumnUpdaterTests.Unit\NotionColumnUpdaterTests.Unit.csproj", "{B977DEF2-21CA-4265-9703-96761892A16F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37120BC0-D10B-4E15-84F6-C2C9842DCDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37120BC0-D10B-4E15-84F6-C2C9842DCDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37120BC0-D10B-4E15-84F6-C2C9842DCDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37120BC0-D10B-4E15-84F6-C2C9842DCDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC51F838-3A48-45EF-BED5-73D98C15D520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC51F838-3A48-45EF-BED5-73D98C15D520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC51F838-3A48-45EF-BED5-73D98C15D520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC51F838-3A48-45EF-BED5-73D98C15D520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B977DEF2-21CA-4265-9703-96761892A16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B977DEF2-21CA-4265-9703-96761892A16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B977DEF2-21CA-4265-9703-96761892A16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B977DEF2-21CA-4265-9703-96761892A16F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

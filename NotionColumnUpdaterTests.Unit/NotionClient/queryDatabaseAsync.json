@@ -1,0 +1,310 @@
+﻿{
+  "object": "list",
+  "results": [
+    {
+      "object": "page",
+      "id": "fce4a6df-3ecd-4458-968f-7994e510c104",
+      "created_time": "2024-06-21T07:17:00.000Z",
+      "last_edited_time": "2024-06-21T07:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7791e177-7ffd-4664-bd35-746bcf17f583"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "4f6ce0c7-ac15-4adb-a0d4-f6d7fb9cc485"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "52ea8203-d917-47be-8fbe-09b8524d19f3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Do Date": {
+          "id": "E%7CbC",
+          "type": "date",
+          "date": {
+            "start": "2024-06-13T17:15:00.000+02:00",
+            "end": "2024-06-13T18:15:00.000+02:00",
+            "time_zone": null
+          }
+        },
+        "Time (minutes)": {
+          "id": "HEHH",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 60
+          }
+        },
+        "📹 Media Vault": {
+          "id": "%7D%5CrX",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Source-controlling-Config-files-in-Git-dotfiles-Dan-Clarke-fce4a6df3ecd4458968f7994e510c104",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3a3c15c4-0682-4551-8190-3b2979e529e4",
+      "created_time": "2024-06-13T08:45:00.000Z",
+      "last_edited_time": "2024-06-21T10:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "4f6ce0c7-ac15-4adb-a0d4-f6d7fb9cc485"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d03a811d-54fa-47cd-8087-7c635e2079a7"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "52ea8203-d917-47be-8fbe-09b8524d19f3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Do Date": {
+          "id": "E%7CbC",
+          "type": "date",
+          "date": {
+            "start": "2024-06-10T14:45:00.000+02:00",
+            "end": "2024-06-10T18:00:00.000+02:00",
+            "time_zone": null
+          }
+        },
+        "Time (minutes)": {
+          "id": "HEHH",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 195
+          }
+        },
+        "📹 Media Vault": {
+          "id": "%7D%5CrX",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "e776fdbb-af1b-408b-9a76-ff5da87f2099"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Source-controlling-Config-files-in-Git-dotfiles-Dan-Clarke-3a3c15c40682455181903b2979e529e4",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "70a5dea3-ddb5-4908-b866-1a35b825dad4",
+      "created_time": "2024-06-13T08:45:00.000Z",
+      "last_edited_time": "2024-06-21T10:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "4f6ce0c7-ac15-4adb-a0d4-f6d7fb9cc485"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d03a811d-54fa-47cd-8087-7c635e2079a7"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "52ea8203-d917-47be-8fbe-09b8524d19f3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Do Date": {
+          "id": "E%7CbC",
+          "type": "date",
+          "date": {
+            "start": "2024-06-13T09:00:00.000+02:00",
+            "end": "2024-06-13T11:00:00.000+02:00",
+            "time_zone": null
+          }
+        },
+        "Time (minutes)": {
+          "id": "HEHH",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 120
+          }
+        },
+        "📹 Media Vault": {
+          "id": "%7D%5CrX",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "e776fdbb-af1b-408b-9a76-ff5da87f2099"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Source-controlling-Config-files-in-Git-dotfiles-Dan-Clarke-70a5dea3ddb54908b8661a35b825dad4",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "14fe71f8-38d1-455a-853c-8202af37d062",
+      "created_time": "2024-06-13T08:44:00.000Z",
+      "last_edited_time": "2024-06-21T10:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "4f6ce0c7-ac15-4adb-a0d4-f6d7fb9cc485"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d03a811d-54fa-47cd-8087-7c635e2079a7"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "52ea8203-d917-47be-8fbe-09b8524d19f3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Do Date": {
+          "id": "E%7CbC",
+          "type": "date",
+          "date": {
+            "start": "2024-06-12T17:00:00.000+02:00",
+            "end": "2024-06-12T18:00:00.000+02:00",
+            "time_zone": null
+          }
+        },
+        "Time (minutes)": {
+          "id": "HEHH",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 60
+          }
+        },
+        "📹 Media Vault": {
+          "id": "%7D%5CrX",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "e776fdbb-af1b-408b-9a76-ff5da87f2099"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Source-controlling-Config-files-in-Git-dotfiles-Dan-Clarke-14fe71f838d1455a853c8202af37d062",
+      "public_url": null
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "page_or_database",
+  "page_or_database": {},
+  "request_id": "1831d655-7388-4586-8cd4-cfc271d737ae"
+}

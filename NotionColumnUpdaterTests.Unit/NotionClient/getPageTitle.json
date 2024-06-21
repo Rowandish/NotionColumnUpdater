@@ -1,0 +1,86 @@
+﻿{
+  "object": "page",
+  "id": "e776fdbb-af1b-408b-9a76-ff5da87f2099",
+  "created_time": "2024-06-13T08:39:00.000Z",
+  "last_edited_time": "2024-06-13T08:39:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "4f6ce0c7-ac15-4adb-a0d4-f6d7fb9cc485"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "4f6ce0c7-ac15-4adb-a0d4-f6d7fb9cc485"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "6df10bff-ec45-48fa-b18c-ae8a4ed329b3"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "Tags": {
+      "id": "Qwau",
+      "type": "select",
+      "select": null
+    },
+    "📹 Media Vault hours": {
+      "id": "WTx~",
+      "type": "relation",
+      "relation": [
+        {
+          "id": "14fe71f8-38d1-455a-853c-8202af37d062"
+        },
+        {
+          "id": "70a5dea3-ddb5-4908-b866-1a35b825dad4"
+        },
+        {
+          "id": "3a3c15c4-0682-4551-8190-3b2979e529e4"
+        }
+      ],
+      "has_more": false
+    },
+    "Block Time": {
+      "id": "%5DcuK",
+      "type": "button",
+      "button": {}
+    },
+    "URL": {
+      "id": "rY%3BK",
+      "type": "url",
+      "url": "https://www.danclarke.com/config-files-in-git"
+    },
+    "Author": {
+      "id": "~JbL",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Source-controlling Config files in Git (dotfiles?) - Dan Clarke",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Source-controlling-Config-files-in-Git-dotfiles-Dan-Clarke-e776fdbbaf1b408b9a76ff5da87f2099",
+  "public_url": null,
+  "request_id": "582969c6-0d91-447b-afb4-90b18510bad8"
+}
