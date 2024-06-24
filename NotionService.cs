@@ -20,6 +20,11 @@ public class NotionService : INotionService
 
     public async Task UpdateDatabaseNamesAsync()
     {
+        if (_configs.Databases == null)
+        {
+            _logger.LogError("Error getting table id from config");
+            return;
+        }
         foreach (var databaseId in _configs.Databases)
             try
             {
