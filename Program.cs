@@ -8,11 +8,6 @@ namespace NotionColumnUpdater;
 
 internal static class Program
 {
-    /// <summary>
-    ///     Se true utilizza Azure App Configuration Manager per ottenere gli id delle tabelle da modificare, altrimenti il Json appsettings.json locale
-    /// </summary>
-    private const bool UseLocalJson = false;
-
     private static async Task Main()
     {
         var serviceCollection = new ServiceCollection();
@@ -28,9 +23,10 @@ internal static class Program
     private static void ConfigureServices(IServiceCollection services)
     {
         var configuration = LoadConfiguration();
-        if (!UseLocalJson)
+        #if RELEASE
             // Mi serve per ottenere il value della key chiamata "Databases" su Azure App Configuration
             configuration = configuration.GetSection("Databases");
+        #endif
         // Usando il metodo Configure utilizzo il pattern con IOptions che è più completo
         services.Configure<AppConfig>(configuration);
         services.AddLogging(configure => configure.AddConsole());
@@ -48,14 +44,12 @@ internal static class Program
     private static IConfiguration LoadConfiguration()
     {
         var configurationBuilder = new ConfigurationBuilder();
-        if (UseLocalJson)
-        {
+        #if DEBUG
             configurationBuilder.SetBasePath(Directory.GetCurrentDirectory());
             configurationBuilder.AddJsonFile("appsettings.json", false, true);
-        }
-        else
+        #else
             configurationBuilder.AddAzureAppConfiguration(Environment.GetEnvironmentVariable("AAC_CONNECTION_STRING"));
-
+        #endif
         return configurationBuilder.Build();
     }
 }
