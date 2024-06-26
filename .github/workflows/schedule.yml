@@ -27,4 +27,4 @@ jobs:
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           AAC_CONNECTION_STRING: ${{ secrets.AAC_CONNECTION_STRING }}
-        run: dotnet run --project ./NotionColumnUpdater.csproj
+        run: dotnet run --no-build --configuration Release --project ./NotionColumnUpdater.csproj
